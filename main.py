@@ -53,8 +53,8 @@ title = Label(root, text="Magic Trickster", background="midnightblue", fg="white
 magik_img = PhotoImage(file="magik.png")
 magik_photo_label = Label(root, image=magik_img)
 yes_button = Button(root, text="Yes", background="green", fg="white", font=("Courier New", 12, "bold"), command=lambda: win())
-too_high_button = Button(root, text="Too high", background="red", fg="white", font=("Courier New", 12, "bold"), command=lambda: too_high())
-too_low_button = Button(root, text="Too low", background="red", fg="white", font=("Courier New", 12, "bold"), command=lambda: too_low())
+too_high_button = Button(root, text="Too low", background="red", fg="white", font=("Courier New", 12, "bold"), command=lambda: too_high())
+too_low_button = Button(root, text="Too high", background="red", fg="white", font=("Courier New", 12, "bold"), command=lambda: too_low())
 
 # LAYOUT SETUP
 
