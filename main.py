@@ -14,7 +14,7 @@ def write(string):
     message_box.see("end")
     message_box.config(state=DISABLED)
 
-# MECHANICS
+# PROGRAM MECHANICS
 
 write("Ha haaa! I am the  mighty Amon Zandalar! \nPlease think of a number from 0 to 99.")
 
